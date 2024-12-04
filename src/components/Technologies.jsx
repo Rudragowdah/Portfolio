@@ -41,7 +41,7 @@ const Technologies = () => {
         variants={iconVariants(2.5)}
         initial="initial"
         animate="animate"
-        className="rounded-2xl border-4 border-orange-800 pb-4">
+        className="rounded-2xl border-4 border-neutral-800 pb-4">
             <FaHtml5 className="text-7xl rounded-2xl text-orange-600 bg-white"/>
         </motion.div>
         <motion.div 
