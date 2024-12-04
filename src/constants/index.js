@@ -2,75 +2,68 @@ import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
+import project5 from "../assets/projects/project-5.png";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am a Passionate Full Stack Developer with expertise in front-end technologies like HTML, CSS, JavaScript, React, and Bootstrap. Experienced in back-end development using Node.js, PHP, Java, and Python, along with database management in MongoDB and MySQL. Passionate about building responsive, scalable, and efficient web applications, ensuring high-quality code, performance optimization, and exceptional user experiences across all platforms.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `As a Full Stack Developer, I specialize in creating dynamic web applications using front-end technologies such as HTML, CSS, JavaScript, React, and Bootstrap. With strong back-end experience in Node.js, PHP, Java, and Python, and expertise in database management with MongoDB and MySQL, I aim to deliver innovative, high-performance solutions. I am committed to optimizing functionality and ensuring seamless user experiences across platforms while maintaining clean and efficient code.`;
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    year: "Jun 2023 - Sep 2023",
+    role: "Data Scientist",
+    company: "Personifwy",
+    description: `As a Data Science Intern at Personifwy, I gained hands-on experience in data cleaning, preprocessing, and exploratory data analysis using Python libraries such as Pandas and NumPy. I developed and deployed machine learning models, including Random Forest and Logistic Regression, to solve business challenges, achieving 97% Accuracy. Additionally, I created data visualizations and reports using tools like Matplotlib and Tableau, enabling data-driven decision-making and actionable insights.`,
+    technologies: ["Python", "Data Science", "Deep Learning", "Machine Learning"],
   },
   {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-  },
-  {
-    year: "2021 - 2022",
+    year: "Feb 2024 - Mar 2024",
     role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
-  },
+    company: "Destination Technologies",
+    description: `During my Java Full Stack Developer Internship at Destination Technologies, I designed and implemented web applications by leveraging Java, Spring Boot, and MySQL for back-end development. I crafted responsive front-end interfaces using HTML, CSS, JavaScript, and React, collaborated with teams to optimize functionality, and delivered scalable, user-centric solutions effectively.`,
+    technologies: ["HTML", "CSS", "react.js", "mySQL","JavaScript","Java"],
+  }
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Mp3 Player Web Application",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "The Project is a MP3 Music Player, We can listen to the music that we want from the list of available songs. The Application is very responsive. It can be used in any Device (Highly portable). I have also used Google fonts and font awesome tools which gives us amazing fonts and icons.",
+    technologies: ["HTML", "CSS", "JavaScript"],
   },
   {
-    title: "Task Management App",
+    title: "AskHub Web Application",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "Built AskHub, a Q&A platform using HTML, CSS, Bootstrap, PHP, and MySQL, enabling users to ask, search, and answer questions. Implemented dynamic authentication, updating the navbar to display logout and hide login/signup options upon successful login. Designed features to view previous questions, latest user queries, and answers under specific questions for seamless interaction. Optimized MySQL database, ensuring efficient management of user accounts, questions, and answers.",
+    technologies: ["HTML", "CSS", "PHP", "MySQL","Bootstrap"],
+  },
+  {
+    title: "Daily News Web Application",
+    image: project3,
+    description: "Developed a News Web Application using React and Bootstrap, providing real-time news fetched from NewsAPI. Implemented React and React state management to manage data and update the UI dynamically. Optimized application responsiveness using Bootstrap for seamless performance across all devices. Integrated API requests to display real-time news updates and ensured smooth loading of content.",
+    technologies: ["HTML", "CSS", "react.js", "Bootstrap", "Fetch API"],
   },
   {
     title: "Portfolio Website",
-    image: project3,
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
-  },
-  {
-    title: "Blogging Platform",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "A personal portfolio website showcasing projects, skills, and contact information.",
+    technologies: ["HTML", "CSS", "React", "Tailwind CSS"],
   },
+  {
+    title: "TextUtils",
+    image: project5,
+    description:
+      "Developed a React-based TextUtils web application for text manipulation (e.g., word count, case conversion). Integrated Bootstrap for responsive and modern UI design, enhancing user experience. Deployed the application on Vercel for easy accessibility and scalability. Utilized state management in React to handle text transformations in real-time. Implemented key features like text formatting, copying text to the clipboard, and dark/light theme modes. Ensured cross-browser compatibility and optimized performance for mobile and desktop platforms.",
+    technologies: ["HTML", "CSS", "React.js", "Bootstrap"],
+  }
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "338, 28th Cross Road, Sagayapura, Richards Town, Bengaluru, Karnataka",
+  phoneNo: "+918867468300",
+  email: "rudragouda.h2002@gmail.com",
 };

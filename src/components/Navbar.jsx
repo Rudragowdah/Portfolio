@@ -7,7 +7,7 @@ import { IoCall } from "react-icons/io5";
 const Navbar = () => {
   return (
     <div>
-        <nav className="mb-13 flex items-center justify-between pt-6">
+        <nav className="mb-13 flex overflow-hidden items-center justify-between pt-6">
             <div className="flex flex-shrink-0 items-center">
             {/* <img src={logo} alt="logo" /> */}
             <p style={{fontSize:'35px'}}>HRG</p>

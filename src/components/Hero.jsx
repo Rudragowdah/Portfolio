@@ -17,15 +17,15 @@ const container = (delay) => ({
 
 const Hero = () => {
   return (
-    <div className="border-b border-neutral-900 pb-4 lg:mb-35">
-      <div className="flex flex-wrap overflow-hidden">
+    <div className="border-b overflow-hidden border-neutral-900 pb-4 lg:mb-35">
+      <div className="flex flex-wrap">
         <div className="w-full lg:w-1/2">
           <div className="flex flex-col items-center lg:items-start">
             <motion.h1
               variants={container(0)}
               initial="hidden"
               animate="visible"
-              className="pb-8 text-6xl font-thin tracking-tight lg:mt-16 lg:text-8xl"
+              className="pb-8 mt-10 text-5xl font-thin tracking-tight lg:mt-16 lg:text-8xl"
             >
               Rudra Gowda H
             </motion.h1>
@@ -47,7 +47,7 @@ const Hero = () => {
             </motion.p>
           </div>
         </div>
-        <div className="w-full lg:w-1/2 lg:p-8">
+        <div className="w-full lg:w-1/2 lg:p-6">
           <div className="flex justify-center">
             <motion.img
               initial={{ x: 100, opacity: 0 }}
@@ -59,7 +59,7 @@ const Hero = () => {
             />
           </div>
         </div>
-        <div className="flex flex-wrap gap-8">
+        <div className="flex flex-wrap mt-3 lg:gap-8 gap-3">
         <motion.button
           initial={{ x: -100, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
@@ -72,7 +72,7 @@ const Hero = () => {
             link.click();
             document.body.removeChild(link);
           }}
-          className="mx-20 relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-cyan-500 to-blue-500 group-hover:from-cyan-500 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-cyan-200 dark:focus:ring-cyan-800"
+          className="lg:mx-20 relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-cyan-500 to-blue-500 group-hover:from-cyan-500 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-cyan-200 dark:focus:ring-cyan-800"
         >
           <span className="relative text-xl px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
             Resume

@@ -8,6 +8,8 @@ import { SiTailwindcss } from "react-icons/si";
 import { FaBootstrap } from "react-icons/fa6";
 import PythonLogo from "../assets/PythonLogo.jpg";
 import {motion} from "framer-motion";
+import { SiMysql } from "react-icons/si";
+
 
 const iconVariants = (duration)=>({
     initial:{y:-10},
@@ -24,7 +26,7 @@ const iconVariants = (duration)=>({
 
 const Technologies = () => {
   return (
-    <div className="border-b border-neutral-800 pb-24">
+    <div className="overflow-hidden border-b border-neutral-800 pb-24">
       <motion.h1
       whileInView={{opacity:1,y:0}}
       initial={{opacity:0,y:-100}}
@@ -62,6 +64,13 @@ const Technologies = () => {
          animate="animate" 
          className="rounded-2xl border-4 border-neutral-800 pb-4">
             <RiReactjsLine className="text-7xl text-cyan-400"/>
+        </motion.div>
+        <motion.div 
+         variants={iconVariants(2.5)}
+         initial="initial"
+         animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 pb-4">
+            <SiMysql className="text-7xl text-yellow-300"/>
         </motion.div>
         <motion.div 
          variants={iconVariants(2)}
