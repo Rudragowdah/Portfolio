@@ -66,7 +66,7 @@ const Hero = () => {
           transition={{ duration: 1, delay: 1.2 }}
           onClick={() => {
             const link = document.createElement("a");
-            link.href = "public/Resume.pdf"; // Update with the correct path to your resume file
+            link.href = "/Resume.pdf"; // Update with the correct path to your resume file
             link.download = "Resume.pdf"; // Customize the downloaded file name
             document.body.appendChild(link);
             link.click();
